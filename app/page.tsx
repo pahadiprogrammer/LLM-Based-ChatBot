@@ -4,12 +4,6 @@ import { useState } from "react";
 import axios from "axios";
 import CopyButton from "../app/components/CopyButton"; // Import CopyButton component
 
-
-// Define API response structure
-interface AIResponse {
-    choices?: { message: { content: string } }[];
-}
-
 export default function Home() {
   console.log("Component Rendered!"); // Check if the component renders
 
